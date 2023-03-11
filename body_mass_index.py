@@ -1,0 +1,17 @@
+#!/usr/bin/python3
+print("We are calculating your BMI based on your details")
+print("NOTE!: BMI = Body Mass Index\n")
+weight = input("What is your weight dear...? ")
+height = input("What is your height...? ")
+print("Your weight is: " + weight)
+print("Your height is: " + height)
+BMI = (int(weight) / (int(height) ** 2))
+print("Your total body mass index is: " + str(BMI))
+#print("Code developed by Masino")
+print("\nWe are now calculating based on an already existing file in our database\n")
+a, b = 66, 6
+print("Masino's Weight in kg is: " + str(a))
+print("Masino's Height in ft is: " + str(b))
+bmi = (a / (b ** 2))
+print("Masino's total body mass index in (kg/ft^2) is: " + str(bmi))
+print("\nCode developed by Masino")
