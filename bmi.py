@@ -1,0 +1,10 @@
+#!/usr/bin/python3
+weight = input("What is your weight(kg)...? ")
+height = input("What is your height(m)...? ")
+print("Got it!")
+print("Your weight is: " + str(weight) + "kg")
+print("Your height is: " + str(height) + "m")
+bmi = int(weight) / (float(height) ** 2)
+print("BMI is: " + str(round(bmi, 1)))
+#print(int(bmi))
+print("\nCode developed by Masino")
