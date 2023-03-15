@@ -1,0 +1,27 @@
+#!/usr/bin/python3
+
+print("Welcome!\nCode execution starts here:")
+lists = [1, 4, 9, 16, 25, 36, 49, 64, 81]
+print(lists)
+print("\nTo add '7':")
+lists.extend("7")
+print(lists)
+print("\nTo change the the fourth element(16) to 61:")
+lists[3] = 61
+print(lists)
+print("\nTo change the first three elements to 1, 2, and 3:")
+lists[0:3] = (1, 2, 3)
+print(lists)
+print("\nTo remove the last element:")
+lists.pop()
+print(lists)
+print("\nTo remove the 36 element:")
+lists.remove(36)
+print(lists)
+print("\nTo count the number of '0' in this list:")
+print(int(lists.count(0)))
+print("\nTo remove the first element:")
+lists.pop(0)
+print(lists)
+print("End of code execution here.")
+print("\nCode developed by Masino")
