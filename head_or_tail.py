@@ -5,8 +5,8 @@ print("Here, we will take:\n0 for Head\n1 for tail.\nLet's Goo!!!")
 numbers = (0, 1)
 num = random.choice(numbers)
 name = input("Please type 'toss' to toss the coin:  ")
-print("Good toss!\nPrinting the result now.")
-print(num)
+print("Good toss!\nPrinting the result now...")
+print("The result is:  " + str(num))
 if num == 0:
     print("Congratulations!\nWe got a HEAD!")
 else:
