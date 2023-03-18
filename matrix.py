@@ -9,13 +9,18 @@ lists3 = [5, 0, 1, 9]
 lists4 = [2, 0, 1, 3]
 print("Below is our matrix stand for today:")
 print(f"{lists0}\n{lists1}\n{lists2}\n{lists3}\n{lists4}")
-number = input("Enter row and colum(separate with a comma) of a number to access it: ")
+number = input("Enter row and colum(separate with a comma) to hide your money: ")
 sort_number = number.split(",")
 num0 = int(sort_number[0])
 num1 = int(sort_number[1])
 matrix = lists[num0 - 1][num1 - 1]
 print("The element in this locations is: " + str(matrix))
 
-
+lists[num0 - 1][num1 - 1] = "^"
+print(lists[0])
+print(lists[1])
+print(lists[2])
+print(lists[3])
+print(lists[4])
 
 print("\nCode developed by Masino")
