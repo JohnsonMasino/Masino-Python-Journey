@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 num = int(input("Hello!\nWelcome to screen tree printer.\nWhat is the height of the tree you want to print ?  "))
-print("Okay, Got it!")
+print("Okay, Got it!\n")
 top_space = num - 1
 hashes = 1
 stump_spaces = num - 1
