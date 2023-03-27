@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+print("Python 3 development...")
 num = int(input("Hello!\nWelcome to screen tree printer.\nWhat is the height of the tree you want to print ?  "))
 print("Okay, Got it!\n")
 top_space = num - 1
