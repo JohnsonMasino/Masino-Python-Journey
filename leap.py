@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+print("Welcome to GetLeapYear place.\nWe only find out leap years here")
 leap = int(input("Enter a year here:  "))
 if (leap % 4) == 0:
     print("Let us find out yet")
